@@ -1,0 +1,196 @@
+/*common css start*/
+
+body{
+
+	margin: 0;
+	font-family:'Playfair Display', serif; ;
+	font-size:16px ;
+	font-weight:400 ;
+	color:#626262 ;
+}
+
+header{
+padding-top: 40px;
+
+}
+.container{
+margin: 0 auto;
+width: 90%;
+
+
+}
+.logo{
+
+margin-top: 13px;
+width: 12%;	
+
+float: left;
+}
+.logo.img{
+
+	width: 100%;
+}
+.menu{
+
+	width: 75%;
+    float: right;
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+list-style: none;
+float: left;
+
+
+}
+.menu ul li a{
+	display:inline-block ;
+	margin: 0px 60px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#626262 ;
+	border-bottom: 1px solid transparent;
+	transition: .33s;
+
+}
+.menu ul li a:last-child{
+
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom:1px solid; #626262 ;
+}
+
+/*common css end*/
+
+
+/* banner css start */
+.banner{}
+.b_img{}
+.b_img img{
+
+   width: 100%;
+}
+
+/* banner css end */
+
+/* Weekend start  */
+.weekened{
+	padding: 80px 0;
+
+}
+.container2{ 
+overflow: hidden;	
+margin:0 auto;
+width:80%; 
+
+
+}
+.w_content{
+	
+}
+.c_tag{
+
+font-family: 'Ubuntu', sans-serif;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+
+}
+
+.c_title{
+	margin:15px 0 25px ;
+    font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	line-height: 24 px;
+}
+.c_cmt{
+font-family: 'Ubuntu', sans-serif;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+
+
+}
+.mb_45{
+
+	margin-bottom: 45px;
+}
+/* Weekend end */
+
+/* blog start */
+.blog{
+padding: 0 0 80px;
+
+}
+.s_blog{
+	margin-bottom: 70px;
+	width: 47%;
+	box-sizing: border-box;
+	float: left;
+}
+.s_blog:nth-child(even){
+margin-left: 6%;
+
+}
+.s_image{}
+.s_image img{
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+/* blog end */
+.news{}
+.n_letter{
+
+margin-top: 90px;
+padding: 80px;
+ background-color: #F0F0F0;
+ text-align: center;
+
+}
+
+/* News start */
+
+/* News end */
+/*load start*/
+
+.c_more{
+	margin: 0 auto;
+    width: 20%;
+   padding-top: 60px;
+}
+.c_load{
+
+	text-align: center;
+	padding: 30px;
+	background-color:#FFFFFF;
+	border: 1px solid black;
+
+}
+
+/*load end*/
+/*footer start*/
+.footer{}
+
+.s_footer{
+   
+   
+    text-align: left;
+	padding: 30px;
+	background-color:#F0F0F0;
+
+}
+
+.s_p{
+
+
+}
+/*footer end*/
+
+
